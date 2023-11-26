@@ -1,0 +1,318 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #54286E, #014e4c);
+}
+
+
+header {
+    position: sticky;   
+    background: #000000;
+    height: top; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background:linear-gradient(to right, #000000, #54286E);
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    flex-direction: column;
+}
+
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    background: linear-gradient(to right, #54286E, #014e4c);
+    padding: 30px;
+    margin: 80px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffff;
+}
+
+section p {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background: linear-gradient(to right, #54286E, #014e4c);
+    color: #ffff;
+    padding: 10px 0;
+    font-size: 11px;
+}
+img{
+    border-radius: 15px;
+}
+
+#inicio{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+/*ESTILOS DEL SLIDE*/
+.swiper{
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+.swiper-slide{
+    width: 350px;
+    height: 250px;
+    background: linear-gradient(to right, #014e4c, #54286E);
+    border-radius: 50px;
+    box-shadow: 0 0 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.product-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-txt{
+    flex-basis: 20%;
+}
+
+.service-txt h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align:center
+
+}
+
+.service-txt p{
+    font-size: 12px;
+    color:#c4c4c4;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.service-img{
+    flex-basis: 200px;
+    text-align: right;
+    height: 25px;
+    width: 25px;
+}
+
+.service-img img{
+    width: 200px;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+/* ÍCONOS */
+
+#logo-img {
+    width: 90px; 
+}
+#map-container {
+    margin-top: 40px; /* Ajusta el valor del margen superior según tus necesidades */
+}
+
+ .whatsapp-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+ .facebook-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+
+.instagram-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+.ubicacion-icon {
+        width: 32px; /* Ajusta el ancho a tu preferencia */
+        height: 32px; /* Ajusta el alto a tu preferencia */
+    }
+.zarsaltec-icon {
+        width: 200px; /* Ajusta el ancho a tu preferencia */
+        height: 200px; /* Ajusta el alto a tu preferencia */
+    }
+ .gobierno-icon {
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
+    }
+
+.empresa-icon {
+        width: 200px; /* Ajusta el ancho a tu preferencia */
+        height: 200px; /* Ajusta el alto a tu preferencia */
+    }
+.corporativo-icon {
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
+    }
+.educacion-icon {
+        width: 180px; /* Ajusta el ancho a tu preferencia */
+        height: 180px; /* Ajusta el alto a tu preferencia */
+    }
+.salud-icon {
+        width: 150px; /* Ajusta el ancho a tu preferencia */
+        height: 150px; /* Ajusta el alto a tu preferencia */
+    }
+
+/*CONTENEDOR NOSOTROS*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    background-color: #bbd7e6;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: fantasy;
+    color: #bbd7e6;
+}
+
+.descripcion {
+    align: center;
+}
+.texto {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+
+.section-heading-wrapper{
+    margin-bottom: 48px;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit; 
+    vertical-align: baseline;
+}
+
+.div.container.wow.fadeInUp.animated{
+    visibility: visible;
+}
+
+.section-subheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #bbd7e6;
+    font-weight:bold;
+    text-align: justify;
+}
+
+/* Estilo para las columnas de las imágenes */
+.row:not(.section-heading-wrapper) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilo para las columnas */
+.col-sm-4 {
+    flex: 0 0 calc(15.25% - 50px); /* 3 columnas por fila con separaciones */
+    margin-bottom: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* Estilo para las imágenes dentro de logos */
+.logos img {
+    width: 100%; /* Imágenes ocupan el 100% del contenedor */
+    height: 100%; /* Mantener la proporción original de la imagen */
+    display: block; /* Eliminar espacio extra debajo de las imágenes */
+    max-width: 100%;
+}
+
+/* Estilo para separar las imágenes de arriba y abajo */
+.col-sm-4:nth-child(n+4) {
+    margin-top: 15px;
+}
+
+
+.flex-container {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    }

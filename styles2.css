@@ -33,13 +33,14 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    margin: 10px;
+    margin-right: auto;
 }
 
 /* Estilos para las secciones */
 section {
     background: linear-gradient(to right, #54286E, #014e4c);
-    padding: 30px;
-    margin: 80px;
+    padding: 80px;
 }
 
 h2 {
@@ -57,8 +58,7 @@ footer {
     text-align: center;
     background: linear-gradient(to right, #54286E, #014e4c);
     color: #ffff;
-    padding: 10px 0;
-    font-size: 11px;
+    font-size: 10px;
 }
 img{
     border-radius: 15px;

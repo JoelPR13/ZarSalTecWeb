@@ -5,7 +5,6 @@ body {
     background: linear-gradient(to right, #54286E, #014e4c);
 }
 
-
 header {
     position: sticky;   
     background: #000000;
@@ -84,24 +83,12 @@ img{
 
 .swiper-slide{
     width: 350px;
-    height: 250px;
+    height: 180px;
     background: linear-gradient(to right, #014e4c, #54286E);
     border-radius: 50px;
     box-shadow: 0 0 20px;
     padding: 50px;
     text-align: center;
-}
-
-.icons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.icons i {
-    font-size: 20px;
-    color: #FFFFFF;
 }
 
 .product-content{

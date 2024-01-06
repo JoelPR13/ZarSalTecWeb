@@ -82,13 +82,13 @@ img{
 }
 
 .swiper-slide{
-    width: 350px;
-    height: 180px;
+    width: 300px;
+    height: 250px;
     background: linear-gradient(to right, #014e4c, #54286E);
     border-radius: 50px;
     box-shadow: 0 0 20px;
     padding: 50px;
-    text-align: center;
+    align: center;
     display:flex;
 }
 
